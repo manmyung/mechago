@@ -46101,7 +46101,7 @@ GameObject:
   - 114: {fileID: 1149124819}
   m_Layer: 0
   m_Name: TeddyBear
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63415,7 +63415,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8c20c380af461574f99424a22acd34c1, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 8c20c380af461574f99424a22acd34c1, type: 3}
       propertyPath: m_Controller
@@ -63423,6 +63423,10 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 29ed5a05bb8ad434a993329a6d8879a8, type: 2}
     - target: {fileID: 9500000, guid: 8c20c380af461574f99424a22acd34c1, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8c20c380af461574f99424a22acd34c1, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
